@@ -1,7 +1,7 @@
 // Write your solution in this file!
 // Global variables
 const burgers = ["Hamburger", "Cheeseburger"];
-let featuredDrink = "Strawberry Milkshake"; // use let so it can be updated
+let featuredDrink = "Strawberry Milkshake"; 
 
 // Function to add a new burger (function-scoped variable)
 function addBurger() {
@@ -10,7 +10,7 @@ function addBurger() {
 }
 
 // Block-scoped variable added to the array
-if (true) {
+if(true){
     const anotherNewBurger = "Maple Bacon Burger";
     burgers.push(anotherNewBurger);
 }
@@ -20,6 +20,5 @@ function changeFeaturedDrink() {
     featuredDrink = "The JavaShake";
 }
 
-// Call functions
-changeFeaturedDrink();
-addBurger();
+
+
